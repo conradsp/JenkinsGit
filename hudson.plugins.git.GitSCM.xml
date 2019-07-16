@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.git.GitSCM_-DescriptorImpl plugin="git@3.10.1">
+  <generation>17</generation>
+  <globalConfigName>jenkins</globalConfigName>
+  <globalConfigEmail>jenkins@digitalimpactalliance.org</globalConfigEmail>
+  <createAccountBasedOnEmail>false</createAccountBasedOnEmail>
+</hudson.plugins.git.GitSCM_-DescriptorImpl>

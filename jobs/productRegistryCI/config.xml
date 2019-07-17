@@ -21,7 +21,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/JenkinsCI</name>
+        <name>*/master</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -52,7 +52,7 @@
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQOh6fgFM72/vglcclkGyqNr5PTcH/oQ62MgrLTrazHMc=}</secretToken>
+      <secretToken>{AQAAABAAAAAQpc6p9OBJVRveneURqv0lGtc+jYCT+ebB0VYXtjnagL0=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>

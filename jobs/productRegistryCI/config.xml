@@ -21,7 +21,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/master</name>
+        <name>*/165-unit-tests-for-slug_em-and-prevent-empty-slugs-like-orgs-whose-name-is-just-a-number</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -52,7 +52,7 @@
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQ+3N4ilyMkJQRBdrenzFUSMuKOHvWV1GepM7sLKrHLLk=}</secretToken>
+      <secretToken>{AQAAABAAAAAQvpJigIMtQSEJ8PqkRjaCcw+ICgbSna5kacAmhbu7hvs=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>

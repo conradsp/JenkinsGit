@@ -52,7 +52,7 @@
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQkVkTRHZsCMYXvPNtH+RG/3uKVoEcnEMPHzP7mDTvyBg=}</secretToken>
+      <secretToken>{AQAAABAAAAAQqp9sjJ8ix2Q/zXnVG/OUoTFwpPaRwmd2l2y+Ge2+GrU=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -84,8 +84,8 @@ docker-compose -f docker-compose.ci.yml down -v
       <notifyUnstable>false</notifyUnstable>
       <notifyRegression>false</notifyRegression>
       <notifyFailure>false</notifyFailure>
-      <notifyEveryFailure>true</notifyEveryFailure>
-      <notifyBackToNormal>true</notifyBackToNormal>
+      <notifyEveryFailure>false</notifyEveryFailure>
+      <notifyBackToNormal>false</notifyBackToNormal>
       <notifyRepeatedFailure>false</notifyRepeatedFailure>
       <includeTestSummary>false</includeTestSummary>
       <includeFailedTests>false</includeFailedTests>

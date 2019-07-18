@@ -21,7 +21,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/165-unit-tests-for-slug_em-and-prevent-empty-slugs-like-orgs-whose-name-is-just-a-number</name>
+        <name>*/master</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -47,12 +47,12 @@
       <ciSkip>true</ciSkip>
       <skipWorkInProgressMergeRequest>true</skipWorkInProgressMergeRequest>
       <setBuildDescription>true</setBuildDescription>
-      <branchFilterType>All</branchFilterType>
-      <includeBranchesSpec></includeBranchesSpec>
+      <branchFilterType>NameBasedFilter</branchFilterType>
+      <includeBranchesSpec>master, </includeBranchesSpec>
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQcifWrFSd92MnSZNO6niQFQCtFivyH+p6Ykb4Yz1CXac=}</secretToken>
+      <secretToken>{AQAAABAAAAAQqOaRf1xvj4TxHmDenClFyrNzJf+iK6BZUc6C+sPR9Ms=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -84,8 +84,8 @@ docker-compose -f docker-compose.ci.yml down -v
       <notifyUnstable>false</notifyUnstable>
       <notifyRegression>false</notifyRegression>
       <notifyFailure>false</notifyFailure>
-      <notifyEveryFailure>false</notifyEveryFailure>
-      <notifyBackToNormal>false</notifyBackToNormal>
+      <notifyEveryFailure>true</notifyEveryFailure>
+      <notifyBackToNormal>true</notifyBackToNormal>
       <notifyRepeatedFailure>false</notifyRepeatedFailure>
       <includeTestSummary>false</includeTestSummary>
       <includeFailedTests>false</includeFailedTests>

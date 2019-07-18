@@ -38,11 +38,11 @@
       <triggerOnPush>true</triggerOnPush>
       <triggerOnMergeRequest>true</triggerOnMergeRequest>
       <triggerOnPipelineEvent>false</triggerOnPipelineEvent>
-      <triggerOnAcceptedMergeRequest>false</triggerOnAcceptedMergeRequest>
+      <triggerOnAcceptedMergeRequest>true</triggerOnAcceptedMergeRequest>
       <triggerOnClosedMergeRequest>false</triggerOnClosedMergeRequest>
-      <triggerOnApprovedMergeRequest>true</triggerOnApprovedMergeRequest>
+      <triggerOnApprovedMergeRequest>false</triggerOnApprovedMergeRequest>
       <triggerOpenMergeRequestOnPush>never</triggerOpenMergeRequestOnPush>
-      <triggerOnNoteRequest>true</triggerOnNoteRequest>
+      <triggerOnNoteRequest>false</triggerOnNoteRequest>
       <noteRegex>Jenkins please retry a build</noteRegex>
       <ciSkip>true</ciSkip>
       <skipWorkInProgressMergeRequest>true</skipWorkInProgressMergeRequest>
@@ -52,7 +52,7 @@
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQqOaRf1xvj4TxHmDenClFyrNzJf+iK6BZUc6C+sPR9Ms=}</secretToken>
+      <secretToken>{AQAAABAAAAAQkVkTRHZsCMYXvPNtH+RG/3uKVoEcnEMPHzP7mDTvyBg=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>

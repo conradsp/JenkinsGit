@@ -35,7 +35,7 @@
   <triggers>
     <com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin="gitlab-plugin@1.5.12">
       <spec></spec>
-      <triggerOnPush>true</triggerOnPush>
+      <triggerOnPush>false</triggerOnPush>
       <triggerOnMergeRequest>true</triggerOnMergeRequest>
       <triggerOnPipelineEvent>false</triggerOnPipelineEvent>
       <triggerOnAcceptedMergeRequest>true</triggerOnAcceptedMergeRequest>
@@ -52,7 +52,7 @@
       <excludeBranchesSpec></excludeBranchesSpec>
       <sourceBranchRegex></sourceBranchRegex>
       <targetBranchRegex></targetBranchRegex>
-      <secretToken>{AQAAABAAAAAQ4nM0jdd9MRkKRg05HkY/GclpHFNob1hWaDgJBXw7KSc=}</secretToken>
+      <secretToken>{AQAAABAAAAAQshDkJMU5RHtrgAF/3d0IyL74bwJPX0AwdAomEXmzZOA=}</secretToken>
       <pendingBuildName></pendingBuildName>
       <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
     </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -60,7 +60,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>docker-compose -f docker-compose.ci.yml build --no-cache
+      <command>cp ../setEnv.sh .
+
+docker-compose -f docker-compose.ci.yml build --no-cache
 docker-compose -f docker-compose.ci.yml up --force-recreate --abort-on-container-exit
 docker-compose -f docker-compose.ci.yml down -v
 </command>
